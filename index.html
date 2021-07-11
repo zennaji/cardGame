@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/loader.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Card Game</title>
+</head>
+<body>
+     <div class="container-fluid">
+        <section class="cardGame">
+           <div class="intro">
+               <div class="data">
+            <h1>Voer je naam in om te spelen</h1>
+            <input type="text" id="inputName" name="" >
+            <p></p>
+            <br>
+            <button class="btn ">spelen</button>
+        </div>
+
+        <div class="progress-bar ">
+            <span class="bar">
+              <span class="progress fadeOut"></span>
+            </span>
+          </div>
+
+           </div>
+
+           <div class="match fadeOut">
+               <h1>Hello <span class="userName" >...</span> !, kies een kaart</h1>
+               <div class="cards">
+                <div class="row">
+                    <div class="col"><img src="imgs/1D.png" width="100px" alt="1D"></div>
+                    <div class="col"><img src="imgs/2D.png" width="100px" alt="2D"></div>
+                    <div class="col"><img src="imgs/3D.png" width="100px" alt="3D"></div>
+                    <div class="col"><img src="imgs/4D.png" width="100px" alt="4D"></div>
+                    <div class="col"><img src="imgs/5D.png" width="100px" alt="5D"></div>
+                    <div class="w-100"></div>
+                    <div class="col"><img src="imgs/6D.png" width="100px" alt="6D"></div>
+                    <div class="col"><img src="imgs/7D.png" width="100px" alt="7D"></div>
+                    <div class="col"><img src="imgs/8D.png" width="100px" alt="8D"></div>
+                    <div class="col"><img src="imgs/9D.png" width="100px" alt="9D"></div>
+                    <div class="col"><img src="imgs/10D.png" width="100px" alt="10D"></div>
+                  </div>
+               </div>
+
+               <div class="score">
+                <div class="player-score">
+                    <h2>Name Score</h2>
+                    <p>0</p>
+                </div>
+
+                <div class="vsBoard">
+                    <div class="playerCard"><img src="imgs/field.png" width="90px" alt=""></div>
+                    <div class="vs"><img src="imgs/vs.png" width="90px" alt=""></div>
+                    <div class="ComputerCard"><img src="imgs/red_back.png" width="90px" alt=""></div>
+    
+                </div>
+               
+                <div class="computer-score">
+                   <h2>Computer Score</h2>
+                   <p>0</p>
+               </div>
+            </div>
+           
+           </div>
+        </section>
+     </div>
+
+
+    
+
+    <script src="js/script.js"></script>
+</body>
+</html>
